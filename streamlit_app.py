@@ -108,8 +108,7 @@ def validate_question_structure(question):
 def get_fallback_exam_questions():
     """Provide comprehensive fallback exam questions"""
     return [
-        {
-"questions": [
+   
 {
 "id": 1,
 "topic": "Work Readiness",
@@ -1736,8 +1735,7 @@ def get_fallback_exam_questions():
 "explanation": "The PDF's central thesis: combine soft-skill development, clear evidence of impact, proactive networking, and practiced interviewing/presentation to stand out."
 }
 ]
-}
-    ]
+
 
 def analyze_exam_topics(questions):
     """Analyze and categorize exam questions by topic"""
